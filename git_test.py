@@ -5,13 +5,14 @@ b = ' is'
 c= ' a'
 d = ' test.'
 print(a+b+c+d)
-
+sleep(1)
 print('this is a change from the second PC')
-
+sleep(1)
 abc= "This is a test"
 for i in abc:
     print(i,end=" ")
     sleep(0.1)
+sleep(2)
 
 counter = 0
 while counter <=2:
