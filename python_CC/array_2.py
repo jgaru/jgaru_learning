@@ -10,7 +10,8 @@ x = Person("john", "Doe")
 x.printname()
 
 class Student(Person):
-    pass
+    def __init__(self,fname,lname):
+        Person.__init__(self,fname,lname)
 
 x = Student("Mike","Olsen")
 x2 = Student("Jesus","Garmendia")
